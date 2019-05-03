@@ -99,6 +99,8 @@ Business exceptions are thrown from this component.
 
 Necessary files to the module to work, they define how to use the equivalent adapter from `infra` folder.
 
+Adapters may trigger use cases.
+
 ##### stylesheets
 
 A composable set of styles according to [itcss](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/) componentization. The result is used by every component's style.
