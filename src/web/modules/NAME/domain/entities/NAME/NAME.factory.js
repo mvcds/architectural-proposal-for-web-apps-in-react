@@ -1,0 +1,1 @@
+Entities have valid states

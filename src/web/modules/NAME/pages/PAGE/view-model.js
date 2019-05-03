@@ -1,0 +1,1 @@
+Acts like an aggregate root when necessary
