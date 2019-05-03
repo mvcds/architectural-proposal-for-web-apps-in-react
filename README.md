@@ -71,7 +71,7 @@ Reusable code following [atomic design](http://bradfrost.com/blog/post/atomic-we
 
 The proposed extent is to leave "pages" out of this folder, as for each module define their own.
 
-HOCs should also be placed here.
+HOCs should also be placed here, as well as wrappers for third-party libraries.
 
 ##### modules
 
