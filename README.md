@@ -15,6 +15,8 @@
 
 The [clean architecture](https://medium.freecodecamp.org/a-quick-introduction-to-clean-architecture-990c014448d2) is a N-layer architecture disposed in circles within circles. The closer to the center, the more abstract and fixed is the layer, whereas the further to the center, the more concrete and dynamic is the layer.
 
+<img src="https://cdn-images-1.medium.com/max/1200/0*GtcSDT7dNFshDM7c" />
+
 Each circle may have different components which are allowed to interact to each other BUT each layer is only allowed to interact to the one immediately within it. This way the more close to the center, more "isolated" of external system the layer becomes.
 
 The core of the software is basically tied to business needs (the domain and its use cases), data storage and user interface are simply details of the project which enable users to interact with the software.
